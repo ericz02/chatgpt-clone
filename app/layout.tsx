@@ -1,3 +1,4 @@
+import Sidebar from '@/components/Sidebar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -16,10 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div>
+        <div className='flex'>
 
-          {/* Sidebar */}
-          {/* ClientProvider - Notification */}
+          <div className='bg-[#202123] max-w-xs h-screen overflow-y-auto md:min-w-[20rem]'>
+            <Sidebar />
+          </div>
           
 
           <div className="bg-[#343541] flex-1">{children}</div>
