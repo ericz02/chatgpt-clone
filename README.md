@@ -19,7 +19,7 @@ Make sure you have the following tools installed:
 1. Clone the repository:
   
    ```bash
-   git clone https://github.com/your-username/chatgpt-clone.git
+   git clone git@github.com:ericz02/chatgpt-clone.git
    ```
 2. Navigate to project directory
     ```bash
